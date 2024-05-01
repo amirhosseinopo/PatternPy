@@ -20,7 +20,7 @@ ENV NAME PatternPy
 RUN git clone https://github.com/keithorange/PatternPy
 
 # Navigate to the PatternPy directory (update this if the structure is different)
-WORKDIR /app/PatternPy
+WORKDIR /tradingpatterns
 
 # Command to run on container start: specify the Python script or command to run your app
-CMD ["python", "your_script.py"]  # Replace 'your_script.py' with the actual script that runs your application
+CMD ["python", "tradingpatterns.py"]  # Replace 'your_script.py' with the actual script that runs your application
